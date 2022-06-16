@@ -16,6 +16,10 @@ Once running, the following commands are supported:
 * `noteon NOTE VELOCITY CHANNEL`: Send a `noteon` message. All values are in decimal.
 * `cc CONTROL VALUE CHANNEL`: Send a `cc` message. All values are in decimal.
 
+## Nix Users
+
+Run `nix-shell` to load an ephemeral shell with `alsa-lib` headers intact.
+
 ## Building
 
 Midiline is written in Rust and can be built with cargo using the
